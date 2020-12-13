@@ -1,0 +1,94 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    margin: 0;
+}
+
+$color-primary: rgb(223, 223, 223);
+$color-aside: #035e93;
+$color-dark: #004c8c;
+$color-text: rgb(130, 130, 130);
+$color-text-light:rgb(230, 230, 230);
+
+hr{
+    border: 0;
+    height: .1em;
+    background-image: linear-gradient(to right,$color-text, rgba(0, 0, 0, 0));
+}
+.container{
+    display: grid;
+    grid-template-columns:15em 1fr ;
+    background: $color-primary;
+}
+.aside{
+    display: grid;
+    grid-template-rows: auto auto auto auto 1fr;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+    h1{
+        margin-right: .5em;
+        font-size: 2em;
+        font-weight: 800;
+        small{
+            font-size: 60%;
+        }
+    }
+    h2{
+        max-height: 1.3em;
+        position: relative;
+        left: -1em;
+        padding: .3em 1em;
+        width: 100%;
+        color: $color-text-light;
+        background: $color-dark;
+    }
+    padding: 0 1em;
+    display: grid;
+    color: $color-primary;
+    background: $color-aside;
+    justify-self: stretch;
+}
+.article{
+    font-family: 'Lato', sans-serif;
+    p{
+        line-height: 1.3em;
+    }
+    h2{
+        margin: 0;
+        color: $color-dark;
+    }
+    padding: 0 1em;
+    max-width: 80%;
+    color: $color-text;
+    justify-self: stretch;
+    :first-child{
+        margin: 4em 0;
+    }
+}
+.contact{
+    p{
+        margin:.2em 0 0.2em 0;
+    }
+}
+.skills{
+    p{
+        margin:.5em 0 0.2em 0;
+    }
+}
+.basic{
+    background: linear-gradient(to right,$color-text,$color-text,$color-text, rgba(0, 0, 0, 0));
+    width: 25%;
+    height: 1em;
+}
+.middle{
+    background: linear-gradient(to right,$color-text,$color-text,$color-text, rgba(0, 0, 0, 0));
+    width: 50%;
+    height: 1em;
+}
+.full{
+    background: linear-gradient(to right,$color-text,$color-text, rgba(0, 0, 0, 0));
+    width: 90%;
+    height: 1em;
+}
