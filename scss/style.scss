@@ -19,7 +19,7 @@ hr{
 }
 .container{
     display: grid;
-    grid-template-columns:15em 1fr ;
+    grid-template-columns:16em 1fr ;
     background: $color-primary;
 }
 .aside{
@@ -63,13 +63,22 @@ hr{
     max-width: 80%;
     color: $color-text;
     justify-self: stretch;
-    :first-child{
-        margin: 4em 0;
+    li{
+        margin: .5em 0;
     }
 }
 .contact{
     p{
         margin:.2em 0 0.2em 0;
+        a{
+            text-decoration: none;
+            color: $color-text-light;
+            transition: .2s ease;
+            &:hover,:focus{
+                color: $color-text;
+                transition: .2s ease;
+            }
+        }
     }
 }
 .skills{
@@ -79,16 +88,16 @@ hr{
 }
 .basic{
     background: linear-gradient(to right,$color-text,$color-text,$color-text, rgba(0, 0, 0, 0));
-    width: 25%;
+    width: 35%;
     height: 1em;
 }
 .middle{
     background: linear-gradient(to right,$color-text,$color-text,$color-text, rgba(0, 0, 0, 0));
-    width: 50%;
+    width: 70%;
     height: 1em;
 }
 .full{
-    background: linear-gradient(to right,$color-text,$color-text, rgba(0, 0, 0, 0));
-    width: 90%;
+    background: linear-gradient(to right, $color-text, $color-text, $color-text, rgba(0, 0, 0, 0));
+    width: 100%;
     height: 1em;
 }
