@@ -22,7 +22,24 @@ hr{
     grid-template-columns:16em 1fr ;
     background: $color-primary;
 }
+.lang:-webkit-any-link {
+        position: absolute;
+        top: 1em;
+        left: 12em;
+        text-decoration: none;
+        color: $color-primary;
+        background:$color-dark;
+        padding: .3em;
+        border-radius: .2em;
+            transition: .2s ease;
+        &:hover,:focus{
+            background:$color-text;
+            color: $color-dark;
+            transition: .2s ease;
+        }
+}
 .aside{
+    
     display: grid;
     grid-template-rows: auto auto auto auto 1fr;
     font-family: 'Montserrat', sans-serif;
