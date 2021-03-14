@@ -1,0 +1,64 @@
+Waterfall model:{
+requirements > design > development > testing > deployment > maintenance
+požiadavky > dizajn > vývoj> testovanie > nasadenie > údržba
+
+klient>požiadavky>vyvoj>test>nasadenie>reakcia(klient)
+}
+..............................................................
+Agile:{
+    co nieje agile:
+    stretnutie>zapisanie>požiadavky sa kedykoľvek zmenia>
+    >nestrukturovany vyvoj> bez doukumentacie
+    co je agile:
+    urcuje: proces a nastroj > doukumentaciu > zmluva > plan
+}
+..............................................................
+Scrum:{
+klient > projekt(owner) > scrum master
+product backlog = usporiadany zoznam co vsetko je potrebne - zdroj prace
+sprint =(ciel) plan, build, test, rewiew
+sprint backlog = odraz prace pocas sprintu
+sprint 2-4x
+...potentially shipable product increment
+....................
+projekt >>> scrum master >>> team =3ceremonie sprint palaning, dayli scrum, zhodnotenie 
+plan projektu > ciel(plan, tvorba, test, zhodnotenie, doladenie) >
+>  ciel(-||-) /2-4x > doladeny produkt(potencionalne) > nasadzovanie
+scrum meeting: 
+co si robil vcera? 
+co budes robit dnes? 
+ake mas prekazky?
+
+scrum board: - tabula prace
+otvorene 
+v procese
+v testovani 
+uzavrete
+
+den:
+1. Plánovanie sprintu
+2. Sprint
+3. Denné stretnutie skrumáže
+4. Sprint review meet
+5. Sprint retrospektívne stretnutie
+
+scrum: 
+Setri cas, vyzaduje menej planovania a dokumentacie,
+Pravidelna spatna vezba od pouzivatelov,
+riesi problemi vopred Dennym stretnutim
+..............................................................
+Kanban:{
+    -ziadny fixny cas ani planovanie ani odhady uloh
+
+kanban board:
+spravit - ma limit
+v procese
+spravene
+}
+..............................................................
+vytvaranie problemu v Jira:
+1. Prihláste sa do svojho účtu a na informačný panel. 
+3. Kliknite na  „Vytvoriť“ .. okno na vytvorenie problému.
+2. Podľa potreby zadajte všetky potrebné podrobnosti na vytvorenie problému. 
+
+typ problemu: Bug, stories, task

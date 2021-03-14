@@ -1,0 +1,49 @@
+JIRA:{
+
+}
+Git:{}
+Selenium:{}
+
+
+
+///////////////////////////////////////////////////////////////////////////
+SQL  !!!
+/////////////////////////////////////////////////////////////////////////////////
+DevOps CI/CD !!
+CI CD = nepretrzita integracia a potom nepretrzite dodanie alebo nasadenie
+CI - nepretrzita integracia
+-developer pusne kod na repozitar (git)
+-kod sa otestuje
+-developer skontroluje spravnost testovania kod vylepsi
+--opravy chyby
+--znova pusne
+CD(deployment/delivery) - nepretrzite dodanie 
+-kedykolvek je softvér zostaveny moze byt spolahlivo vydany
+-kedykolvek mozme nasadenie rychlo spustit
+-nasadenie je plne automatizovane
+--CodeDeploy / Jenkins CD / Spinnaker
+(delivery)- plne automatizovane vacsinou sa iba manualne potvrdzuje schvalenie
+(deployment) - ziadne manualne zasahy .. kaydz krok v ulozisku sa priamo  
+AWS = code > build > test > deploy > provision
+
+aws code commit >> github repositary
+aws codebuild >> jenkins CI / party CI servers
+aws elastic beanstalk >> 
+--user managed / ec2 instances fleet -(cloud formation)
+--aws CodeDeploy - konecne nasadenie kodu
+
+SDLC
+AWS
+
+
+Znalosť RESTful API
+znalosť sieťového protokolu TCP/IP.
+TCP/IP
+príkazmi UNIX / LINUX a git, cmd, windows registre, GP Edit !!
+HTTP, TLS, DNS
+
+Unit testy
+Appium, Selendroid
+BDD
+
+Certifikát ISTQB Foundation !!
